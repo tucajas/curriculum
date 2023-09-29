@@ -13,6 +13,12 @@ export class InformaticaComponent {
     
     // Agrega más URLs de imágenes aquí
   ];
+  subtitulos: string[] = [
+    'Django, postgres,Angular. Curso Udemy',
+     'Python. Universidad de lujan',
+
+     
+  ]
   selectedImage: string | null = null;
 
   enlargeImage(image: string) {

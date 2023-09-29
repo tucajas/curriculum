@@ -12,6 +12,12 @@ export class TitulosComponent {
     './assets/titulosecundario.jpg',
     // Agrega más URLs de imágenes aquí
   ];
+  subtitulos: string[] = [
+    'Titulo terciario',
+     'Titulo secundario',
+
+     
+  ]
   selectedImage: string | null = null;
 
   enlargeImage(image: string) {

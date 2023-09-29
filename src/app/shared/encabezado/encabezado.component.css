@@ -5,6 +5,8 @@
     display: table;
     margin: initial;
     font-weight: 1;
+    margin-left: 25px;
+    padding-left: 50px;
   }
   /*
   mat-toolbar{

@@ -1,13 +1,16 @@
-<p>capacitaciones works!</p>
+
 <!-- image-gallery.component.html -->
-<span class="titulo">CURSOS Y CAPACITACIONES</span>
+<div class="titulo">
+
+  <span >CURSOS Y CAPACITACIONES</span>
+</div>
 <div class="thumbnail-container">
-    <div class="thumbnail" *ngFor="let image of images" (click)="enlargeImage(image)">
-      <img [src]="image" alt="Thumbnail" />
-    </div>
+  <div class="thumbnail" *ngFor="let image of images; let i = index" (click)="enlargeImage(image)">
+    <img [src]="image" alt="Thumbnail" />
+    <span class="subtitulo">{{ subtitulos[i] }}</span>
   </div>
-  
-  <div class="enlarged-image" *ngIf="selectedImage">
-    <img [src]="selectedImage" alt="Enlarged Image" (click)="closeEnlargedView()" />
-  </div>
-  
+</div>
+
+<div class="enlarged-image" *ngIf="selectedImage">
+  <img [src]="selectedImage" alt="Enlarged Image" (click)="closeEnlargedView()" />
+</div>

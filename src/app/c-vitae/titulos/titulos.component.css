@@ -1,13 +1,16 @@
 .titulo{
-    margin-left: 300px;
-    font-size: 34px;
-    
+  margin-left: 300px;
+  font-size: 34px;
+  padding-top: 100px;
+  
+  
 }
+
 /* image-gallery.component.css */
 .thumbnail-container {
     display: flex;
-    margin-left: 150px;
-    margin-top: 200px;
+    margin-left: 380px;
+    margin-top: 100px;
   }
   
   .thumbnail {
