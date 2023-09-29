@@ -1,1 +1,13 @@
 <p>informatica works!</p>
+<!-- image-gallery.component.html -->
+<span class="titulo">CURSOS Y CAPACITACIONES</span>
+<div class="thumbnail-container">
+    <div class="thumbnail" *ngFor="let image of images" (click)="enlargeImage(image)">
+      <img [src]="image" alt="Thumbnail" />
+    </div>
+  </div>
+  
+  <div class="enlarged-image" *ngIf="selectedImage">
+    <img [src]="selectedImage" alt="Enlarged Image" (click)="closeEnlargedView()" />
+  </div>
+  

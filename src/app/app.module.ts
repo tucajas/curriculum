@@ -5,15 +5,29 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { EncabezadoComponent } from './shared/encabezado/encabezado.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { HttpClientModule } from '@angular/common/http';
+import { MaterialDesignModule } from './material-design/material-design.module';
+import { FormsModule } from '@angular/forms';
+import { MenuComponent } from './shared/menu/menu.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EncabezadoComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MaterialDesignModule,
+    FormsModule,
+    FlexLayoutModule,
+    HttpClientModule,
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })

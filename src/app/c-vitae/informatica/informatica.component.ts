@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class InformaticaComponent {
 
+  images: string[] = [
+    './assets/djangoAngularUdemy.jpg',
+    './assets/pythonUniversidad.jpg',
+    
+    // Agrega más URLs de imágenes aquí
+  ];
+  selectedImage: string | null = null;
+
+  enlargeImage(image: string) {
+    this.selectedImage = image;
+  }
+
+  closeEnlargedView() {
+    this.selectedImage = null;
+  }
+
 }
