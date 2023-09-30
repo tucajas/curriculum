@@ -5,21 +5,7 @@
 
   <span >TITULOS </span>
 </div>
-<!-- <div>
-  <span class="subtitulo">titulo secundario</span>
-  <span class="subtitulo"> Titulo terciario</span>
-  <span class="subtitulo">Titulo universitario (en tramite)</span>
 
-</div>
-<div class="thumbnail-container">
-    <div class="thumbnail" *ngFor="let image of images" (click)="enlargeImage(image)">
-      <img [src]="image" alt="Thumbnail" />
-    </div>
-  </div>
-  
-  <div class="enlarged-image" *ngIf="selectedImage">
-    <img [src]="selectedImage" alt="Enlarged Image" (click)="closeEnlargedView()" />
-  </div> -->
   <div class="thumbnail-container">
     <div class="thumbnail" *ngFor="let image of images; let i = index" (click)="enlargeImage(image)">
       <img [src]="image" alt="Thumbnail" />

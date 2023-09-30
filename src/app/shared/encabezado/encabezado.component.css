@@ -3,20 +3,11 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 34px;
     display: table;
-    margin: 30%;
+    margin: 0%;
     font-weight: 1;
+    text-align: left;
    
     /* padding-left: auto; */
   }
-  /*
-  mat-toolbar{
-    background-image: url("fondoimprenta.jpg");
-  }*/
-  #fondo {
-    background-size:cover; /* Ajustar la imagen al tamaño del contenedor */
-    background-repeat: no-repeat; /* Evitar la repetición de la imagen */
-    /* Otros estilos que desees aplicar al componente */
-    background-position: center;
-    padding-top: 0px;
-  }
+ 
   
