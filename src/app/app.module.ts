@@ -11,12 +11,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { MaterialDesignModule } from './material-design/material-design.module';
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './shared/menu/menu.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EncabezadoComponent,
-    MenuComponent
+    MenuComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,

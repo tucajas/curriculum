@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-inicio',
+  templateUrl: './inicio.component.html',
+  styleUrls: ['./inicio.component.css']
 })
-export class AppComponent {
-  title = 'curriculum';
+export class InicioComponent {
 
-  longText = `Tecnico superior en programacion con experiencia en las áreas de frontend
+  longText = ` - Tecnico Universitario en programacion con experiencia en las áreas de frontend
   (angular, html, css, typescript ) y backend ( djnago, python, sql ) diseño web, y
   desarrollador de webapp ( CRUD ) . Me considero una persona proactiva,
   organizada, responsable capaz de resolver cualquier problema de manera

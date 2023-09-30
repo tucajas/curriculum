@@ -3,10 +3,10 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
     display: table;
-    margin: initial;
+    margin: auto;
     font-weight: 1;
-    margin-left: 25px;
-    padding-left: 50px;
+   
+    padding-left: auto;
   }
   /*
   mat-toolbar{

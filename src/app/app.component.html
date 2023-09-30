@@ -1,4 +1,4 @@
-
+<!-- 
 <mat-sidenav-container>
   <mat-sidenav #menu>
       <app-menu (menuToggle)="menu.toggle()" ></app-menu>
@@ -7,9 +7,12 @@
       <app-encabezado (menuToggle)="menu.toggle()"></app-encabezado>
       <main class="margensup">
           
+
+
           <router-outlet>
               
-
+           
+           
 
           </router-outlet>
          
@@ -17,4 +20,21 @@
       </main>
       
   </mat-sidenav-content>
-</mat-sidenav-container>
+</mat-sidenav-container> -->
+<mat-sidenav-container fxLayout="column">
+    <!-- Utilizamos fxLayout para establecer una disposición en columna, es decir, los elementos se apilarán verticalmente en pantallas pequeñas -->
+  
+    <mat-sidenav #menu>
+      <app-menu (menuToggle)="menu.toggle()"></app-menu>
+    </mat-sidenav>
+  
+    <mat-sidenav-content>
+      <app-encabezado (menuToggle)="menu.toggle()"></app-encabezado>
+      <main class="margensup" fxLayoutAlign="center">
+        <!-- Utilizamos fxLayoutAlign para centrar el contenido horizontalmente -->
+  
+        <router-outlet></router-outlet>
+      </main>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  

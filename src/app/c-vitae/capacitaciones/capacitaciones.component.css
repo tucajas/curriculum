@@ -1,6 +1,6 @@
 .titulo{
-    margin-left: 400px;
-    font-size: 34px;
+    margin-left: 35%;
+    font-size: 24px;
     padding-top: 100px;
     
     
@@ -8,15 +8,15 @@
 /* image-gallery.component.css */
 .thumbnail-container {
     display: flex;
-    margin-left: 20px;
+    margin-left: auto;
     margin-top: 100px;
   }
   
   .thumbnail {
     
-    margin-left: 35px;
+    margin-left: auto;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right:auto;
     transition: transform 0.3s ease;
     max-width: 100px; /* Establece el ancho máximo de las miniaturas */
     max-height: 100px; /* Establece la altura máxima de las miniaturas */

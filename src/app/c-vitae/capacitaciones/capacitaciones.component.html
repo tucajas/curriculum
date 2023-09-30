@@ -1,7 +1,8 @@
+<!-- <div fxLayout="column" fxLayout.xs="column" fxLayoutAlign="center center">
 
-<!-- image-gallery.component.html -->
-<div class="titulo">
-
+  
+  <div class="titulo">
+    
   <span >CURSOS Y CAPACITACIONES</span>
 </div>
 <div class="thumbnail-container">
@@ -13,4 +14,24 @@
 
 <div class="enlarged-image" *ngIf="selectedImage">
   <img [src]="selectedImage" alt="Enlarged Image" (click)="closeEnlargedView()" />
+</div>
+</div> -->
+<div fxLayout="column" fxLayout.xs="column" fxLayoutAlign="center center">
+
+  <!-- image-gallery.component.html -->
+  <div class="titulo">
+    <span>CURSOS Y CAPACITACIONES</span>
+  </div>
+
+  <div class="thumbnail-container" style="display: flex; flex-wrap: wrap;">
+    <!-- Las imágenes estarán en una fila, pero envolverán cuando sea necesario -->
+    <div class="thumbnail" *ngFor="let image of images; let i = index" (click)="enlargeImage(image)">
+      <img [src]="image" alt="Thumbnail" />
+      <span class="subtitulo">{{ subtitulos[i] }}</span>
+    </div>
+  </div>
+
+  <div class="enlarged-image" *ngIf="selectedImage">
+    <img [src]="selectedImage" alt="Enlarged Image" (click)="closeEnlargedView()" />
+  </div>
 </div>
