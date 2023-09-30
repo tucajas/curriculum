@@ -8,6 +8,8 @@ import { CapacitacionesComponent } from './capacitaciones/capacitaciones.compone
 import { TitulosComponent } from './titulos/titulos.component';
 import { EscuelasComponent } from './escuelas/escuelas.component';
 import { InformaticaComponent } from './informatica/informatica.component';
+import { MaterialDesignModule } from '../material-design/material-design.module';
+import { ContactoComponent } from './contacto/contacto.component';
 
 
 @NgModule({
@@ -17,11 +19,13 @@ import { InformaticaComponent } from './informatica/informatica.component';
     CapacitacionesComponent,
     TitulosComponent,
     EscuelasComponent,
-    InformaticaComponent
+    InformaticaComponent,
+    ContactoComponent
   ],
   imports: [
     CommonModule,
-    CVitaeRoutingModule
+    CVitaeRoutingModule,
+    MaterialDesignModule
   ]
 })
 export class CVitaeModule { }

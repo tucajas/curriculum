@@ -1,12 +1,16 @@
 .example-card {
-    max-width: auto;
+    max-width: 500px;
     margin-bottom: 8px;
 
   }
 .alineacion{
     margin-left:auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .just{
     text-align: justify;
 }
+#fondo {
+    background-image: url('/assets/fondo.jpg');
+    max-width: 100%;
+  }

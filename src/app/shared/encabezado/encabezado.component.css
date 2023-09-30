@@ -1,12 +1,12 @@
 .encabezado{
     font-style:italic;
     font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: 34px;
     display: table;
-    margin: auto;
+    margin: 30%;
     font-weight: 1;
    
-    padding-left: auto;
+    /* padding-left: auto; */
   }
   /*
   mat-toolbar{

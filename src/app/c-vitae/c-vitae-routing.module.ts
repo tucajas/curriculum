@@ -6,6 +6,7 @@ import { EscuelasComponent } from './escuelas/escuelas.component';
 import { InformaticaComponent } from './informatica/informatica.component';
 import { TitulosComponent } from './titulos/titulos.component';
 import { TrabajosComponent } from './trabajos/trabajos.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 const routes: Routes = [
   {
@@ -31,7 +32,11 @@ const routes: Routes = [
       {
         path:'trabajos',
         component: TrabajosComponent
-      }
+      },
+      {
+        path:'contacto',
+        component: ContactoComponent
+      },
     ]
     
   }
