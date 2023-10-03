@@ -2,7 +2,7 @@
   
   font-size: 24px;
   padding-top: 100px;
-  margin-left: 0px;
+  margin-left: 25px;
   text-align: center;
   
 }
@@ -11,14 +11,15 @@
 .thumbnail-container {
     display: flex;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 60px;
+    
   }
   
   .thumbnail {
     
-    margin-left: 50px;
+    margin-left: auto;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: auto;
     transition: transform 0.3s ease;
     max-width: 100px; /* Establece el ancho máximo de las miniaturas */
     max-height: 100px; /* Establece la altura máxima de las miniaturas */

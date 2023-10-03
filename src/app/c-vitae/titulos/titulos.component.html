@@ -6,7 +6,7 @@
   <span >TITULOS </span>
 </div>
 
-  <div class="thumbnail-container">
+  <div class="thumbnail-container" style="display: flex; flex-wrap: wrap;">
     <div class="thumbnail" *ngFor="let image of images; let i = index" (click)="enlargeImage(image)">
       <img [src]="image" alt="Thumbnail" />
       <span class="subtitulo">{{ subtitulos[i] }}</span>
