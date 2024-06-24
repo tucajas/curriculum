@@ -1,4 +1,4 @@
-# Curriculum
+# Curriculum jose suarez bien escrito vamos a hacer un pull con este archivo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
