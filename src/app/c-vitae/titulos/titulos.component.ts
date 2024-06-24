@@ -8,13 +8,13 @@ import { Component } from '@angular/core';
 export class TitulosComponent {
 
   images: string[] = [
-    './assets/CTT.jpeg',
+    './assets/tituloUtn.jpg',
     './assets/tituloterciario.jpg',
     './assets/titulosecundario.jpg',
     // Agrega más URLs de imágenes aquí
   ];
   subtitulos: string[] = [
-    'Titulo universitario        (Constancia de titulo en tramite)',
+    'Titulo universitario',
    
     'Titulo terciario',
      'Titulo secundario',
